@@ -1,1 +1,19 @@
-Hanne
+EXERCISE 1
+----------
+
+$git init
+$gedit filename.txt
+$git add filename.txt
+$git commit -m "first"
+$git remote add origin https://github.com/HanneD20/exercises.git
+$git push -u origin master
+	username = HanneD20
+	password = howest2018
+
+update file changes:
+$git add filename.txt
+$git commit -m "second"
+$git push -u origin master
+
+
+
