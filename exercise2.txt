@@ -1,0 +1,24 @@
+EXERCISE 2
+----------
+
+UNF:	
+dentist(staffNo, denstistName, patientNo, patientName, appointment, surgeryNo)
+
+1NF:	
+dentist(staffNo, denstistName, patientNo, patientName, appointmentDate, appointmentTime, surgeryNo)
+		keys(staffNo, appointmentDate, appointmentTime)
+
+2NF:	
+dentist(staffNo, patientNo, patientName, appointmentDate, appointmentTime)
+surgery(staffNo, appointmentDate, surgeryNo)
+staff(staffNo, dentistName)
+	
+3NF:	
+dentist(staffNo, patientNo, appointmentDate, appointmentTime)
+surgery(staffNo, appointmentDate, surgeryNo)
+staff(staffNo, dentistName)
+patient(patientNo, patientName)
+
+BCNF: 	
+= 3NF
+
